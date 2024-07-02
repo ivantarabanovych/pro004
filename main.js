@@ -1,6 +1,9 @@
-for (var i = 1; i<=5; i++){
-    for (let j = 1; j <= 5; j++){ 
-        console.log(i + " x " + j + " = " + i*j);
-        document.write(i + " x " + j + " = " + i*j + "<br>")
-  }
-}
+var arr = [9, 11, 13, 15, 17, 19, 21, 23, 25, 27];
+    function arraySum(array){
+        var sum = 0;
+        for(var i = 0; i < array.length; i++){
+            sum += array[i];
+        }
+        console.log(sum);
+    }
+arraySum(arr);
